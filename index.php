@@ -6,7 +6,7 @@
     <title>Klinik Sehat</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
-<body style="background-color: #a1b81fff;">
+<body style="background-color: #f0f0f0ff;">
     <?php
     include('navbar.php');
     ?>
@@ -16,10 +16,10 @@
             <div class="col-6 m-auto mt-5">
                 <div class="card">
                     <div class="card-header">
-                        <h3>Klinik Sehat</h3>
-                    </div>
+                        Klinik Sehat
+                    </div>  
                     <div class="card-body">
-                        <h5 class="card-title">Halo,</h5>
+                        <h5 class="card-title">Halo,</h5>       
                         <p class="card-text">Selamat Datang di Aplikasi ini</p>
                     </div>
                 </div>
