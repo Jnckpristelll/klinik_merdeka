@@ -15,7 +15,7 @@
                         <li><a class="dropdown-item" href="/klinik_merdeka/pasien/index.php">Data Pasien</a></li>
                         <li><a class="dropdown-item" href="/klinik_merdeka/dokter/index.php">Data Dokter</a></li>
                         <li><a class="dropdown-item" href="/klinik_merdeka/poli/index.php">Data Poli</a></li>
-                        <li><a class="dropdown-item" href="#">Berobat</a></li>
+                        <li><a class="dropdown-item" href="/klinik_merdeka/berobat/index.php">Berobat</a></li>
                     </ul>
                 </li>
 

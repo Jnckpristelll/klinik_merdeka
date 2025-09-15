@@ -9,7 +9,7 @@
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 
-<body style="background-color: #ffffffff;">
+<body style="background-color: #EFF5D2;">
     <?php
     include('../navbar.php');
     ?>
@@ -24,7 +24,7 @@
                     <div class="card-body">
                         <form method="post" action="proses_form.php">
                             <div class="mb-3">
-                                <label for="exampleInputEmail1" class="form-label">Nama pasien</label>
+                                <label for="exampleInputEmail1" class="form-label">Nama Pasien</label>
                                 <input name="nama" placeholder="Masukkan nama Lengkap" type="text" class="form-control" id="exampleInputEmail1"
                                     aria-describedby="emailHelp">
                             </div>
