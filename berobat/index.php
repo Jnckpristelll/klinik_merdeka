@@ -64,6 +64,11 @@
                                     $sekarang = new DateTime("today");
                                     $usia = $sekarang->diff($tanggal_lahir)->y;
 
+                                     //memformat biaya menjadi rupiah dan ada pemisah ribuan
+                                    $Biaya_Adm = $row['Biaya_Adm'];
+                                    $Biaya_Adm = number_format($Biaya_Adm,0,',','.');
+
+
                                     ?>
                                     <tr>
                                         <td><?= $row['No_Transaksi'] ?></td>
@@ -75,6 +80,10 @@
                                         <td><?= $row['Nama_Poli'] ?></td>
                                         <td><?= $row['Nama_Dokter'] ?></td>
                                         <td><?= $row['Biaya_Adm'] ?></td>
+                                        <td>Rp <?= $Biaya_Adm ?></td>
+                                        
+                                        
+                                        
                                         <td>
                                             <a href="edit.php?id=<?= $row['Dokter_ID'] ?>"
                                                 class="btn btn-info btn-sm">edit</a>
