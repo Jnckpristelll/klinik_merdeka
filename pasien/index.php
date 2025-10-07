@@ -9,7 +9,7 @@
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 
-<body style="background-color: #f2f7c8ff;">
+<body style="background-color: #EFF5D2;">
     <?php
     include('../navbar.php');
     ?>
@@ -40,7 +40,7 @@
                                 include('../koneksi.php');
 
                                 #2. menuliskan query
-                                $qry = "SELECT * FROM pasien";
+                                $qry = "SELECT * FROM pasien ORDER BY Nama_pasienKlinik ASC";
 
                                 #3. menjalankan query
                                 $result = mysqli_query($koneksi, $qry);

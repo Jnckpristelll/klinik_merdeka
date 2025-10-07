@@ -22,7 +22,7 @@
                         <b>Data Berobat</b>
                     </div>
                     <div class="card-body">
-                        <a href="form.php" class="btn btn-primary">Add New</a>
+                        <a href="cetak.php" target="_blank" class="btn btn-primary">Print</a>
                         <table class="table mt-3 table-striped ">
                             <thead>
                                 <tr class="table-success">
@@ -35,7 +35,6 @@
                                     <th scope="col">Nama Poli</th>
                                     <th scope="col">Dokter</th>
                                     <th scope="col">Biaya Administrasi</th>
-                                    <th scope="col">Action</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -79,38 +78,7 @@
                                         <td><?= $row['Nama_Poli'] ?></td>
                                         <td><?= $row['Nama_Dokter'] ?></td>
                                         <td>Rp <?= $biaya_adm ?></td>
-                                        <td>
-                                            <a href="edit.php?id=<?= $row['No_Transaksi'] ?>"
-                                                class="btn btn-info btn-sm">edit</a>
-                                            <button type="button" class="btn btn-danger btn-sm" data-bs-toggle="modal"
-                                                data-bs-target="#exampleModal<?= $row['No_Transaksi'] ?>">
-                                                Hapus
-                                            </button>
-                                            <!-- Modal -->
-                                            <div class="modal fade" id="exampleModal<?= $row['No_Transaksi'] ?>"
-                                                tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                                <div class="modal-dialog">
-                                                    <div class="modal-content">
-                                                        <div class="modal-header">
-                                                            <h1 class="modal-title fs-5" id="exampleModalLabel">Peringatan
-                                                            </h1>
-                                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                                                aria-label="Close"></button>
-                                                        </div>
-                                                        <div class="modal-body">
-                                                            Yakin data Transaksi <b><?= $row['No_Transaksi'] ?></b> ingin
-                                                            dihapus?
-                                                        </div>
-                                                        <div class="modal-footer">
-                                                            <button type="button" class="btn btn-secondary"
-                                                                data-bs-dismiss="modal">Batal</button>
-                                                            <a href="hapus.php?id=<?= $row['No_Transaksi'] ?>"
-                                                                class="btn btn-danger">Hapus</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </td>
+                                        
                                     </tr>
                                     <?php
                                 }
