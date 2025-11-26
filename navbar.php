@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg" style="background-color: #324e9bff;" data-bs-theme="dark">
+<nav class="navbar navbar-expand-lg" style="background-color: #556B2F;" data-bs-theme="dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">KLINIK</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -14,7 +14,7 @@
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="/klinik_merdeka/pasien/index.php">Data Pasien</a></li>
                         <li><a class="dropdown-item" href="/klinik_merdeka/dokter/index.php">Data Dokter</a></li>
-                        <li><a class="dropdown-item" href="/klinik_merdeka/poli/index.php">Data Poli</a></li>
+                        <li><a class="dropdown-item" href="#">Data Poli</a></li>
                         <li><a class="dropdown-item" href="/klinik_merdeka/berobat/index.php">Berobat</a></li>
                     </ul>
                 </li>
@@ -26,7 +26,7 @@
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="#">List Pasien</a></li>
                         <li><a class="dropdown-item" href="#">List Dokter</a></li>
-                        <li><a class="dropdown-item" href="#">List Data Berobat</a></li>
+                        <li><a class="dropdown-item" href="/klinik_merdeka/berobat/laporan.php">List Data Berobat</a></li>
                     </ul>
                 </li>
                 

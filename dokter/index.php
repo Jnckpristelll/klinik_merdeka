@@ -26,10 +26,10 @@
                         <table class="table mt-3 table-striped ">
                             <thead>
                                 <tr class="table-success">
-                                    <th scope="col">No.</th>
+                                    <th scope="col">NO</th>
                                     <th scope="col">Nama Dokter</th>
                                     <th scope="col">Nama Poli</th>
-                                    <th scope="col">Option</th>
+                                    <th scope="col">Aksi</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -38,7 +38,7 @@
                                 include('../koneksi.php');
 
                                 #2. menuliskan query
-                                $qry = "SELECT * FROM dokter INNER JOIN poli ON dokter.Poli_ID = poli.Poli_ID";
+                                $qry = "SELECT * FROM dokter INNER JOIN poli ON dokter.Poli_ID = poli.Poli_ID ORDER BY dokter.Dokter_ID ASC";
 
                                 #3. menjalankan query
                                 $result = mysqli_query($koneksi, $qry);

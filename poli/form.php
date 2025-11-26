@@ -18,12 +18,12 @@ include "../navbar.php";
             <div class="col-10 m-auto mt-5">
                 <div class="card">
                     <div class="card-header">
-                        <b>Form Tambah Data Poli</b>
+                        <b>Form Tambah Data Pasien</b>
                     </div>
                     <div class="card-body">
                 <form method="post" action="proses_form.php">
                     <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">Nama Poli</label>
+                        <label for="exampleInputEmail1" class="form-label">Nama Pasien</label>
                         <input name="nama" placeholder="Masukkan nama Poli" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                     </div>
                     <button type="submit" class="btn btn-primary">Submit</button>
